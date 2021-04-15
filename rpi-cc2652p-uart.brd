@@ -151,9 +151,10 @@
 <board>
 <fusionsync huburn="a.cGVyc29uYWw6dWUyYzE1ODk4" projecturn="a.cGVyc29uYWw6dWUyYzE1ODk4IzIwMTkwNTIyMTk1MjcwNTc2" f3durn="urn:adsk.wipprod:dm.lineage:YxUaQjXaTCi4Y4MV4bwxpA" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="9f82eda1-1b8b-46d7-8207-566304cbf3c7" lastsyncedrevisionid="9f82eda1-1b8b-46d7-8207-566304cbf3c7" lastboardhashguid="29e4727f-33c5-9ef5-bcef-569e12650b37" lastpushedtime="2021-04-15T11:45:35Z" linktopcb3d="true"/>
 <plain>
-<wire x1="7.6" y1="0" x2="43.5" y2="0" width="0" layer="20"/>
-<wire x1="46" y1="2" x2="46" y2="18.5" width="0" layer="20"/>
-<wire x1="43.5" y1="20.5" x2="7.6" y2="20.5" width="0" layer="20"/>
+<wire x1="7.6" y1="0" x2="43.6" y2="0" width="0" layer="20"/>
+<wire x1="43.6" y1="0" x2="43.7" y2="0" width="0" layer="20"/>
+<wire x1="46.2" y1="2" x2="46.2" y2="18.5" width="0" layer="20"/>
+<wire x1="44.2" y1="20.5" x2="7.6" y2="20.5" width="0" layer="20"/>
 <wire x1="7.6" y1="20.5" x2="5.6" y2="18.5" width="0" layer="20" curve="90"/>
 <wire x1="0" y1="17" x2="0" y2="3.5" width="0" layer="20"/>
 <wire x1="0" y1="17" x2="5.6" y2="17" width="0" layer="20"/>
@@ -161,8 +162,6 @@
 <wire x1="0" y1="3.5" x2="5.6" y2="3.5" width="0" layer="20"/>
 <wire x1="5.6" y1="3.5" x2="5.6" y2="2" width="0" layer="20"/>
 <wire x1="5.6" y1="2" x2="7.6" y2="0" width="0" layer="20" curve="90"/>
-<wire x1="43.5" y1="0" x2="46" y2="2" width="0" layer="20" curve="90"/>
-<wire x1="46" y1="18.5" x2="43.5" y2="20.5" width="0" layer="20" curve="90"/>
 <text x="45.2" y="10.6" size="1.27" layer="26" rot="MR0">CC2652P2 RPi Serial 
 ZigBee Module V0.2
 codm.de, (c) 2021</text>
@@ -171,6 +170,9 @@ CC-BY-SA-NC</text>
 <text x="2.5" y="3.8" size="1.016" layer="25">1</text>
 <text x="45" y="19.5" size="1.016" layer="25" align="center-right">90084-0.2</text>
 <text x="45" y="1" size="1.016" layer="25" font="vector" align="center-right">codm.de</text>
+<wire x1="46.2" y1="18.5" x2="44.2" y2="20.5" width="0" layer="20" curve="90"/>
+<wire x1="46.2" y1="2" x2="44.2" y2="0" width="0" layer="20" curve="-90"/>
+<wire x1="44.2" y1="0" x2="43.7" y2="0" width="0" layer="20"/>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
