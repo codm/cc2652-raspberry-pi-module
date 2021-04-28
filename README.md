@@ -35,7 +35,8 @@ Install `homegear-zigbee` and edit `/etc/homegear/families/zigbee.conf`:
 
 ```
 [Serial]
-id = CC2652 deviceType = serial
+id = CC2652 
+deviceType = serial
 
 #use your own 16 bytes hexadecimal key! 
 password = AABBCCDDEEFF11223344556677889900
