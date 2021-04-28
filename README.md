@@ -7,7 +7,7 @@ The size of a ZigBee mesh is not defined by the count of possible direct childre
 
 This module is the successor of our [CC2538 module](https://github.com/codm/cc2538-raspberry-pi-module). This time it is powered via the 5V rail of the Raspberry Pi with an LDO (Low Drop Out) voltage regulator. The CC2538 worked well on 3.3V directly but for the CC2652 we've decided to be not dependent on the internal voltage regulators of the Pi itself. 
 
-You can buy a ready built coordinator, including external antenna at our webshop https://shop.codm.de/automation/zigbee/33/zigbee-cc2652p2-raspberry-pi-module or built on for non commercial use by yourself based on the files in this repository. Use the BOM ULP from Eagle to generate a parts list (BOM). 
+You can buy a ready built coordinator, including external antenna at our webshop https://shop.codm.de/automation/zigbee/33/zigbee-cc2652p2-raspberry-pi-module or built on for non commercial use by yourself based on the files in this repository. Use the `bom.ulp` from Eagle to generate a parts list (BOM). 
 If you can't get hold of the AP2112K you can also use an TLV75533P.
 
 ![cod.m CC2652 ZigBee Raspberry Pi Module](images/codm-zigbee-cc2652p-rpi-module.jpg)
@@ -53,7 +53,7 @@ We recommend to use only external antennas as the module is close to the WiFi an
 We use Koenkk's Z-Stack 3.x Coordinator Firmware from https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.x.0/bin, ZigStar Variant as it uses the same RF-BM-2652P2.
 
 You can flash the firmware either by JTAG or directly from the Raspberry Pi using [cc2538-prog](https://github.com/1248/cc2538-prog/) - despite the name it also works with the CC2652.
-The firmware has the needed serial bootloader enable.
+The firmware has the needed serial bootloader enabled.
 
 ## JTAG
 The 2x05 header is following the common [JTAG-Cortex-M0](https://www.segger.com/products/debug-probes/j-link/accessories/adapters/9-pin-cortex-m-adapter/) Layout.
