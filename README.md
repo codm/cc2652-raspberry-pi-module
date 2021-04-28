@@ -7,7 +7,7 @@ The size of a ZigBee mesh is not defined by the count of possible direct childre
 
 This module is the successor of our [CC2538 module](https://github.com/codm/cc2538-raspberry-pi-module). This time it is powered via the 5V rail of the Raspberry Pi with an LDO (Low Drop Out) voltage regulator. The CC2538 worked well on 3.3V directly but for the CC2652 we've decided to be not dependent on the internal voltage regulators of the Pi itself. 
 
-You can buy a ready built coordinator, including external antenna at our webshop https://shop.codm.de/automation/zigbee/33/zigbee-cc2652p2-raspberry-pi-module or built on for non commercial use by yourself.
+You can buy a ready built coordinator, including external antenna at our webshop https://shop.codm.de/automation/zigbee/33/zigbee-cc2652p2-raspberry-pi-module or built on for non commercial use by yourself based on the files in this repository. Use the BOM ULP from Eagle to generate a parts list (BOM). 
 If you can't get hold of the AP2112K you can also use an TLV75533P.
 
 ![cod.m CC2652 ZigBee Raspberry Pi Module](images/codm-zigbee-cc2652p-rpi-module.jpg)
@@ -57,11 +57,13 @@ The firmware has the needed serial bootloader enable.
 ## JTAG
 The 2x05 header is following the common [JTAG-Cortex-M0](https://www.segger.com/products/debug-probes/j-link/accessories/adapters/9-pin-cortex-m-adapter/) Layout.
 
+Use `CC2652R1F` and `JTAG`@4000kHz.
+
 
 ## Serial via GPIO
 Install and compile [cc2538-prog](https://github.com/1248/cc2538-prog/).
 
-While connected and powered through the Pi, hold down the `flash` button on the module and press `reset` shortly while still holding `flash`. The CC2538 should now be in the bootloder.
+While connected and powered through the Pi, hold down the `flash` button on the module and press `reset` shortly while still holding `flash`. The CC2652 should now be in the bootloder.
 
 Then execute `./cc2538-prog -d /dev/ttyAMA0 -f CC1352P2_CC2652P_launchpad_coordinator_20210120.hex `
 
