@@ -19,6 +19,8 @@ See  https://www.raspberrypi.org/documentation/configuration/uart.md for a detai
 
 This is also explained in the manual (german): [Anleitung cod.m ZigBee CC2652 Raspberry Pi Modul](https://shop.codm.de/media/pdf/be/b9/21/20210427_ZigBee_CC2652_Raspberry_Pi_Modul_V02_Datenblatt_Anleitung-web.pdf)
 
+If you want to use it with Home Assistant refer to this guide: https://github.com/MarijnPessers/cod.m-CC2538-CC2592-for-Home-Assistant
+
 ## zigbee2mqtt
 Edit `data/configuration.yaml` accordingly: 
 
