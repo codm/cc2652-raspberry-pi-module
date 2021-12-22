@@ -76,21 +76,21 @@ To flash type `python3 cc2538-bsl.py -p /dev/ttyAMA0 -evw CC1352P2_CC2652P_launc
 
 The output looks something like this: 
 ```
-pi@zigbee:~/cc2538-bsl $ python3 cc2538-bsl.py -evw -p /dev/ttyUSB0 ../CC1352P2_CC2652P_launchpad_coordinator_20210708.hex
-Opening port /dev/ttyUSB0, baud 500000
-Reading data from ../CC1352P2_CC2652P_launchpad_coordinator_20210708.hex
+pi@zigbee:~/cc2538-bsl $ python3 cc2538-bsl.py -evw -p /dev/ttyAMA0 ../CC1352P2_CC2652P_launchpad_coordinator_20211217.hex 
+Opening port /dev/ttyAMA0, baud 500000
+Reading data from ../CC1352P2_CC2652P_launchpad_coordinator_20211217.hex
 Your firmware looks like an Intel Hex file
 Connecting to target...
 CC1350 PG2.0 (7x7mm): 352KB Flash, 20KB SRAM, CCFG.BL_CONFIG at 0x00057FD8
-Primary IEEE Address: 00:XX:XX:XX:XX:XX:XX:XX
-Performing mass erase
+Primary IEEE Address: 00:12:4B:00:25:8F:18:32
+    Performing mass erase
 Erasing all main bank flash sectors
-Erase done
+    Erase done
 Writing 360448 bytes starting at address 0x00000000
-Write 104 bytes at 0x00057F988
-Write done
+Write 104 bytes at 0x00057F980
+    Write done                                
 Verifying by comparing CRC32 calculations.
-Verified (match: 0x8c73378a)
+    Verified (match: 0xba5c19c5)
 ```
 
 After that hit the reset button on the module and start your zigbee software again. Maybe you have to replug the module or powercycle the pi.
