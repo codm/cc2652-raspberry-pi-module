@@ -97,6 +97,7 @@ Verified (match: 0x8c73378a)
 After that hit the reset button on the module and start your zigbee software again. Maybe you have to replug the module or powercycle the pi.
 
 Thanks to Alex for the documentation of that way.
+Alternatively you can use https://github.com/electrolama/llama-bsl but I did not test this yet.
 
 ### cc2538-prog
 Install and compile [cc2538-prog](https://github.com/1248/cc2538-prog/).
