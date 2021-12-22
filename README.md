@@ -62,6 +62,41 @@ Use `CC2652R1F` and `JTAG`@4000kHz.
 
 
 ## Serial via GPIO
+
+### cc2538-bsl (preferred)
+Install python3 if not alreay present with `sudo apt update && sudo apt-get install python3-pip` and install the needed python libraries `sudo pip3 install pyserial intelhex`.
+
+Download or checkout [cc2538-bsl](https://github.com/JelmerT/cc2538-bsl) into a directory. After that download and extract the wanted coordinator firmware from https://github.com/Koenkk/Z-Stack-firmware/tree/develop/coordinator/Z-Stack_3.x.0/bin - for the cod.m CC2652 Raspberry Pi module you'll need `CC1352P2_CC2652P_launchpad_*.zip` as listed on Koenkk's GitHub.
+
+Please check that you zigbee software is not running anymore an nothing is accessing the serial device where the zigbee module is plugged in (`/dev/ttyAMA0`).
+
+To flash type `python3 cc2538-bsl.py -p /dev/ttyAMA0 -evw CC1352P2_CC2652P_launchpad_coordinator_20211217.hex` in the appropriate directory. Change the filename of the .hex-file accordingly.
+
+The output looks something like this: 
+```
+pi@zigbee:~/cc2538-bsl $ python3 cc2538-bsl.py -evw -p /dev/ttyUSB0 ../CC1352P2_CC2652P_launchpad_coordinator_20210708.hex
+sonoff
+Opening port /dev/ttyUSB0, baud 500000
+Reading data from ../CC1352P2_CC2652P_launchpad_coordinator_20210708.hex
+Your firmware looks like an Intel Hex file
+Connecting to target...
+CC1350 PG2.0 (7x7mm): 352KB Flash, 20KB SRAM, CCFG.BL_CONFIG at 0x00057FD8
+Primary IEEE Address: 00:XX:XX:XX:XX:XX:XX:XX
+Performing mass erase
+Erasing all main bank flash sectors
+Erase done
+Writing 360448 bytes starting at address 0x00000000
+Write 104 bytes at 0x00057F988
+Write done
+Verifying by comparing CRC32 calculations.
+Verified (match: 0x8c73378a)
+```
+
+After that hit the reset button on the module and start your zigbee software again. Maybe you have to replug the module or powercycle the pi.
+
+Thanks to Alex for the documentation of that way.
+
+### cc2538-prog
 Install and compile [cc2538-prog](https://github.com/1248/cc2538-prog/).
 
 While connected and powered through the Pi, hold down the `flash` button on the module and press `reset` shortly while still holding `flash`. The CC2652 should now be in the bootloder.
@@ -86,6 +121,9 @@ Writing 12 bytes to 0x0027FFD4
 
 After that reset the module using the corresponding button. 
 It happened sometimes that I had to replug the module to get it to work again. 
+
+
+
 
 
 # Thanks
