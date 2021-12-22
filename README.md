@@ -77,7 +77,6 @@ To flash type `python3 cc2538-bsl.py -p /dev/ttyAMA0 -evw CC1352P2_CC2652P_launc
 The output looks something like this: 
 ```
 pi@zigbee:~/cc2538-bsl $ python3 cc2538-bsl.py -evw -p /dev/ttyUSB0 ../CC1352P2_CC2652P_launchpad_coordinator_20210708.hex
-sonoff
 Opening port /dev/ttyUSB0, baud 500000
 Reading data from ../CC1352P2_CC2652P_launchpad_coordinator_20210708.hex
 Your firmware looks like an Intel Hex file
