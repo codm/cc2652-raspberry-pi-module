@@ -10,6 +10,8 @@ This module is the successor of our [CC2538 module](https://github.com/codm/cc25
 You can buy a ready built coordinator, including external antenna at our webshop https://shop.codm.de/automation/zigbee/33/zigbee-cc2652p2-raspberry-pi-module or built on for non commercial use by yourself based on the files in this repository. Use the `bom.ulp` from Eagle to generate a parts list (BOM). 
 If you can't get hold of the AP2112K you can also use an TLV75533P.
 
+The 3D model of the RF-Star CC2652P could be found at GrabCad: https://grabcad.com/library/rf-star-cc2652p-module-1
+
 ![cod.m CC2652 ZigBee Raspberry Pi Module](images/codm-zigbee-cc2652p-rpi-module.jpg)
 
 
