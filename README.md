@@ -71,7 +71,7 @@ Use `CC2652R1F` and `JTAG`@4000kHz.
 ### cc2538-bsl (preferred)
 Install python3 if not alreay present with `sudo apt update && sudo apt-get install python3-pip` and install the needed python libraries `sudo pip3 install pyserial intelhex`.
 
-Download or checkout [cc2538-bsl](https://github.com/JelmerT/cc2538-bsl) into a directory. After that download and extract the wanted coordinator firmware from https://github.com/Koenkk/Z-Stack-firmware/tree/develop/coordinator/Z-Stack_3.x.0/bin - for the cod.m CC2652 Raspberry Pi module you'll need `CC1352P2_CC2652P_launchpad_*.zip` as listed on Koenkk's GitHub.
+Download or checkout [cc2538-bsl](https://github.com/JelmerT/cc2538-bsl) into a directory. After that download and extract the wanted coordinator firmware from [https://github.com/Koenkk/Z-Stack-firmware/tree/develop/coordinator/Z-Stack_3.x.0/bin](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.x.0/bin) - for the cod.m CC2652 Raspberry Pi module you'll need `CC1352P2_CC2652P_launchpad_*.zip` as listed on Koenkk's GitHub.
 
 Please check that you zigbee software is not running anymore an nothing is accessing the serial device where the zigbee module is plugged in (`/dev/ttyAMA0`).
 
