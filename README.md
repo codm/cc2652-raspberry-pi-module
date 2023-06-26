@@ -17,7 +17,7 @@ The 3D model of the RF-Star CC2652P could be found at GrabCad: https://grabcad.c
 
 # Running
 To us the module directly on the serial interface on the GPIO of the Raspberry Pi, you have to free it up first. Either completely or by moving the Bluetooth UART to the mini-uart.
-See  https://www.raspberrypi.org/documentation/configuration/uart.md for a detailed explanation.
+See https://www.raspberrypi.com/documentation/computers/configuration.html#configuring-uarts for a detailed explanation.
 
 This is also explained in the manual (german): [Anleitung cod.m ZigBee CC2652 Raspberry Pi Modul](https://shop.codm.de/media/pdf/31/38/dd/20210427_ZigBee_CC2652_Raspberry_Pi_Modul_V02_Datenblatt_Anleitung-webnc4XN2YCGznNh.pdf)
 
