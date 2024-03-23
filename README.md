@@ -10,14 +10,17 @@ This module is the successor of our [CC2538 module](https://github.com/codm/cc25
 You can buy a ready built coordinator, including external antenna at our webshop https://shop.codm.de/automation/zigbee/33/zigbee-cc2652p2-raspberry-pi-module or built on for non commercial use by yourself based on the files in this repository. Use the `bom.ulp` from Eagle to generate a parts list (BOM). 
 If you can't get hold of the AP2112K you can also use an TLV75533P.
 
+The 3D model of the RF-Star CC2652P could be found at GrabCad: https://grabcad.com/library/rf-star-cc2652p-module-1
+
 ![cod.m CC2652 ZigBee Raspberry Pi Module](images/codm-zigbee-cc2652p-rpi-module.jpg)
 
 
 # Running
 To us the module directly on the serial interface on the GPIO of the Raspberry Pi, you have to free it up first. Either completely or by moving the Bluetooth UART to the mini-uart.
-See  https://www.raspberrypi.org/documentation/configuration/uart.md for a detailed explanation.
+See https://www.raspberrypi.com/documentation/computers/configuration.html#configuring-uarts for a detailed explanation.
 
-This is also explained in the manual (german): [Anleitung cod.m ZigBee CC2652 Raspberry Pi Modul](https://shop.codm.de/media/pdf/be/b9/21/20210427_ZigBee_CC2652_Raspberry_Pi_Modul_V02_Datenblatt_Anleitung-web.pdf)
+This is also explained in the manual (german): [Anleitung cod.m ZigBee CC2652 Raspberry Pi Modul](https://shop.codm.de/media/pdf/31/38/dd/20210427_ZigBee_CC2652_Raspberry_Pi_Modul_V02_Datenblatt_Anleitung-webnc4XN2YCGznNh.pdf)
+
 
 If you want to use it with Home Assistant refer to this guide: https://github.com/MarijnPessers/cod.m-CC2538-CC2592-for-Home-Assistant
 
@@ -68,7 +71,7 @@ Use `CC2652R1F` and `JTAG`@4000kHz.
 ### cc2538-bsl (preferred)
 Install python3 if not alreay present with `sudo apt update && sudo apt-get install python3-pip` and install the needed python libraries `sudo pip3 install pyserial intelhex`.
 
-Download or checkout [cc2538-bsl](https://github.com/JelmerT/cc2538-bsl) into a directory. After that download and extract the wanted coordinator firmware from https://github.com/Koenkk/Z-Stack-firmware/tree/develop/coordinator/Z-Stack_3.x.0/bin - for the cod.m CC2652 Raspberry Pi module you'll need `CC1352P2_CC2652P_launchpad_*.zip` as listed on Koenkk's GitHub.
+Download or checkout [cc2538-bsl](https://github.com/JelmerT/cc2538-bsl) into a directory. After that download and extract the wanted coordinator firmware from [https://github.com/Koenkk/Z-Stack-firmware/tree/develop/coordinator/Z-Stack_3.x.0/bin](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.x.0/bin) - for the cod.m CC2652 Raspberry Pi module you'll need `CC1352P2_CC2652P_launchpad_*.zip` as listed on Koenkk's GitHub.
 
 Please check that you zigbee software is not running anymore an nothing is accessing the serial device where the zigbee module is plugged in (`/dev/ttyAMA0`).
 
