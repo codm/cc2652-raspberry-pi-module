@@ -8572,7 +8572,7 @@ DIN A4, landscape with location and doc. field</description>
 </library>
 <library name="codm" urn="urn:adsk.eagle:library:11602856">
 <packages>
-<package name="CC2653P2-DUOWEISI" urn="urn:adsk.eagle:footprint:27394861/4" library_version="46">
+<package name="CC2652P2-DUOWEISI" urn="urn:adsk.eagle:footprint:27394861/5" library_version="60">
 <wire x1="0" y1="0" x2="0" y2="30" width="0.127" layer="21"/>
 <wire x1="0" y1="30" x2="16.4" y2="30" width="0.127" layer="21"/>
 <wire x1="16.4" y1="30" x2="16.4" y2="0" width="0.127" layer="21"/>
@@ -8628,9 +8628,9 @@ DIN A4, landscape with location and doc. field</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="CC2653P2-DUOWEISI" urn="urn:adsk.eagle:package:27394862/4" type="box" library_version="46">
+<package3d name="CC2653P2-DUOWEISI" urn="urn:adsk.eagle:package:27394862/7" type="model" library_version="60">
 <packageinstances>
-<packageinstance name="CC2653P2-DUOWEISI"/>
+<packageinstance name="CC2652P2-DUOWEISI"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -8687,12 +8687,12 @@ DIN A4, landscape with location and doc. field</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CC2652P2-DUOWEISI" urn="urn:adsk.eagle:component:27394863/6" prefix="U" library_version="46">
+<deviceset name="CC2652P2-DUOWEISI" urn="urn:adsk.eagle:component:27394863/8" prefix="U" library_version="60">
 <gates>
 <gate name="G$1" symbol="CC2652P-DUOWEISI" x="0" y="-7.62"/>
 </gates>
 <devices>
-<device name="" package="CC2653P2-DUOWEISI">
+<device name="" package="CC2652P2-DUOWEISI">
 <connects>
 <connect gate="G$1" pin="ANT" pad="ANT"/>
 <connect gate="G$1" pin="DIO10" pad="DIO10"/>
@@ -8726,7 +8726,7 @@ DIN A4, landscape with location and doc. field</description>
 <connect gate="G$1" pin="VCC" pad="VCC"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:27394862/4"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27394862/7"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -8894,7 +8894,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="FLASH" library="434153017835_Eagle_WS-TASV_rev20a" deviceset="434153017835" device="" package3d_urn="urn:adsk.eagle:package:18304352/2"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
-<part name="U1" library="codm" library_urn="urn:adsk.eagle:library:11602856" deviceset="CC2652P2-DUOWEISI" device="" package3d_urn="urn:adsk.eagle:package:27394862/4"/>
+<part name="U1" library="codm" library_urn="urn:adsk.eagle:library:11602856" deviceset="CC2652P2-DUOWEISI" device="" package3d_urn="urn:adsk.eagle:package:27394862/7"/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1u"/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1u"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
