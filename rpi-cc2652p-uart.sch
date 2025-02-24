@@ -5596,6 +5596,286 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="Wurth_LEDs_WL-SMCW" urn="urn:adsk.eagle:library:19028156">
+<description>&lt;BR&gt;Wurth Elektronik - Optoelectronic Components - LEDs - Singnal LEDs - Chip LED - WL-SMCW&lt;br&gt;&lt;Hr&gt;
+
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
+that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2022c, 2022-11-09&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="WL-SMCW_0805" urn="urn:adsk.eagle:footprint:19028161/3" library_version="6">
+<description>&lt;B&gt;WL-SMCW SMT Mono-color Chip LED Waterclear
+&lt;Br&gt;&lt;Br&gt;&lt;/B&gt;Size: 0805, SMT, 2pins
+&lt;Br&gt;2x1.25x0.7mm(LXWXH)</description>
+<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.1" layer="51"/>
+<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.1" layer="51"/>
+<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.1" layer="51"/>
+<wire x1="-1" y1="-0.625" x2="1" y2="-0.625" width="0.1" layer="51"/>
+<wire x1="-0.213" y1="0.725" x2="0.219" y2="0.725" width="0.2" layer="21"/>
+<wire x1="-0.206" y1="-0.725" x2="0.212" y2="-0.725" width="0.2" layer="21"/>
+<wire x1="0.11" y1="0.14" x2="0.11" y2="-0.15" width="0.1" layer="21"/>
+<wire x1="0.11" y1="-0.15" x2="-0.13" y2="0" width="0.1" layer="21"/>
+<wire x1="-0.13" y1="0" x2="0.11" y2="0.14" width="0.1" layer="21"/>
+<wire x1="0.11" y1="0.14" x2="0.11" y2="-0.15" width="0.1" layer="51"/>
+<wire x1="0.11" y1="-0.15" x2="-0.13" y2="0" width="0.1" layer="51"/>
+<wire x1="-0.13" y1="0" x2="0.11" y2="0.14" width="0.1" layer="51"/>
+<smd name="1" x="-1.05" y="0" dx="1.1" dy="1.2" layer="1" rot="R180"/>
+<smd name="2" x="1.05" y="0" dx="1.1" dy="1.2" layer="1" rot="R180"/>
+<text x="0" y="1.2" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2" size="0.8128" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="1.9" y="-0.3" size="0.6096" layer="21">+</text>
+<text x="1.9" y="-0.3" size="0.6096" layer="51">+</text>
+<polygon width="0.1" layer="39">
+<vertex x="-1.8" y="0.925"/>
+<vertex x="1.8" y="0.925"/>
+<vertex x="1.8" y="-0.925"/>
+<vertex x="-1.8" y="-0.925"/>
+</polygon>
+</package>
+</packages>
+<packages3d>
+<package3d name="WL-SMCW_0805" urn="urn:adsk.eagle:package:19028167/5" type="model" library_version="6">
+<description>&lt;B&gt;WL-SMCW SMT Mono-color Chip LED Waterclear
+&lt;Br&gt;&lt;Br&gt;&lt;/B&gt;Size: 0805, SMT, 2pins
+&lt;Br&gt;2x1.25x0.7mm(LXWXH)</description>
+<packageinstances>
+<packageinstance name="WL-SMCW_0805"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="LED" urn="urn:adsk.eagle:symbol:19028163/1" library_version="6">
+<description>LED</description>
+<text x="-1.988" y="3.972" size="1.27" layer="95">&gt;NAME</text>
+<text x="-2.628" y="-3.928" size="1.27" layer="96">&gt;VALUE</text>
+<text x="3.08" y="-1.74" size="1.27" layer="94">+</text>
+<pin name="-" x="-2.54" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="+" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<wire x1="2.54" y1="-1.27" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.778" y1="2.032" x2="0.381" y2="3.429" width="0.1524" layer="94"/>
+<wire x1="0.635" y1="1.905" x2="-0.762" y2="3.302" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="0.381" y="3.429"/>
+<vertex x="1.27" y="3.048"/>
+<vertex x="0.762" y="2.54"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-0.762" y="3.302"/>
+<vertex x="0.127" y="2.921"/>
+<vertex x="-0.381" y="2.413"/>
+</polygon>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WL-SMCW_0805" urn="urn:adsk.eagle:component:19028173/5" prefix="D" library_version="6">
+<description>&lt;B&gt;WL-SMCW SMT Mono-color Chip LED Waterclea
+&lt;br&gt;
+
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Low energy consumption 
+&lt;br&gt;High reliability 
+&lt;br&gt;Low current requirement 
+&lt;br&gt;Fast switching 
+&lt;br&gt;No UV/IR radiation 
+&lt;br&gt;Smallest SMD LED package for exceptional brightness 
+&lt;br&gt;Top view LED 
+&lt;br&gt;Wide viewing angle 
+&lt;br&gt;Better solder ability 
+&lt;br&gt;Heat dissipation 
+&lt;br&gt;
+
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;&lt;br&gt;&lt;/b&gt; Backlight for mobile and portable device keypads 
+&lt;br&gt;Indoor and outdoor message boards 
+&lt;br&gt;Flat backlight for LCDs, switches and symbols 
+&lt;br&gt;Display for industrial control systems and traffic 
+&lt;br&gt;Miniaturized color effects 
+&lt;br&gt;Pedestrian mark 
+&lt;br&gt;Optical indicators 
+&lt;br&gt;Tabular backlight: LCD, telephone key-press, power-switch, display board 
+&lt;br&gt;Indoor displays 
+&lt;br&gt;Signals 
+&lt;br&gt;Identifiers 
+&lt;br&gt;Backlight for automobile DVD 
+&lt;br&gt;LED General lighting 
+&lt;br&gt;Toys 
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14904v209%20Family_WL-SMCW.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o14904v209%20Family_WL-SMCW.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WL-SMCW/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WL-SMCW&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Updated by Ella Wu, 2022-06-16&lt;br&gt;
+&lt;/b&gt;2022(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WL-SMCW_0805">
+<connects>
+<connect gate="G$1" pin="+" pad="2"/>
+<connect gate="G$1" pin="-" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19028167/5"/>
+</package3dinstances>
+<technologies>
+<technology name="_150080AS75000">
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150080AS75000?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="605nm"/>
+<attribute name="EMITTING-COLOR" value="Amber"/>
+<attribute name="FORWARD-VOLTAGE" value="140°"/>
+<attribute name="LUMINOUS-INTENSITY" value="130mcd"/>
+<attribute name="PART-NUMBER" value="150080AS75000"/>
+<attribute name="PEAK-WAVELENGTH" value="610nm"/>
+<attribute name="VALUE" value="150080AS75000"/>
+</technology>
+<technology name="_150080BS75000">
+<attribute name="CHIP-TECHNOLOGY" value="InGaN"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150080BS75000?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="470nm"/>
+<attribute name="EMITTING-COLOR" value="Blue"/>
+<attribute name="FORWARD-VOLTAGE" value="140°"/>
+<attribute name="LUMINOUS-INTENSITY" value="145mcd"/>
+<attribute name="PART-NUMBER" value="150080BS75000"/>
+<attribute name="PEAK-WAVELENGTH" value="465nm"/>
+<attribute name="VALUE" value="150080BS75000"/>
+</technology>
+<technology name="_150080GS75000">
+<attribute name="CHIP-TECHNOLOGY" value="InGaN"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150080GS75000?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="525nm"/>
+<attribute name="EMITTING-COLOR" value="Green"/>
+<attribute name="FORWARD-VOLTAGE" value="140°"/>
+<attribute name="LUMINOUS-INTENSITY" value="450mcd"/>
+<attribute name="PART-NUMBER" value="150080GS75000"/>
+<attribute name="PEAK-WAVELENGTH" value="515nm"/>
+<attribute name="VALUE" value="150080GS75000"/>
+</technology>
+<technology name="_150080RS75000">
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150080RS75000?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="625nm"/>
+<attribute name="EMITTING-COLOR" value="Red"/>
+<attribute name="FORWARD-VOLTAGE" value="140°"/>
+<attribute name="LUMINOUS-INTENSITY" value="150mcd"/>
+<attribute name="PART-NUMBER" value="150080RS75000"/>
+<attribute name="PEAK-WAVELENGTH" value="630nm"/>
+<attribute name="VALUE" value="150080RS75000"/>
+</technology>
+<technology name="_150080SS75000">
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150080SS75000?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="630nm"/>
+<attribute name="EMITTING-COLOR" value="Super Red"/>
+<attribute name="FORWARD-VOLTAGE" value="140°"/>
+<attribute name="LUMINOUS-INTENSITY" value="60mcd"/>
+<attribute name="PART-NUMBER" value="150080SS75000"/>
+<attribute name="PEAK-WAVELENGTH" value="645nm"/>
+<attribute name="VALUE" value="150080SS75000"/>
+</technology>
+<technology name="_150080VS75000">
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150080VS75000?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="570nm"/>
+<attribute name="EMITTING-COLOR" value="Bright Green"/>
+<attribute name="FORWARD-VOLTAGE" value="140°"/>
+<attribute name="LUMINOUS-INTENSITY" value="40mcd"/>
+<attribute name="PART-NUMBER" value="150080VS75000"/>
+<attribute name="PEAK-WAVELENGTH" value="572nm"/>
+<attribute name="VALUE" value="150080VS75000"/>
+</technology>
+<technology name="_150080YS75000">
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150080YS75000?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="590nm"/>
+<attribute name="EMITTING-COLOR" value="Yellow"/>
+<attribute name="FORWARD-VOLTAGE" value="140°"/>
+<attribute name="LUMINOUS-INTENSITY" value="120mcd"/>
+<attribute name="PART-NUMBER" value="150080YS75000"/>
+<attribute name="PEAK-WAVELENGTH" value="595nm"/>
+<attribute name="VALUE" value="150080YS75000"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5626,13 +5906,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="FD1" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FIDUCIAL" device="1X2" package3d_urn="urn:adsk.eagle:package:41384560/3"/>
 <part name="FD2" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FIDUCIAL" device="1X2" package3d_urn="urn:adsk.eagle:package:41384560/3"/>
 <part name="FD3" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FIDUCIAL" device="1X2" package3d_urn="urn:adsk.eagle:package:41384560/3"/>
+<part name="CC" library="Wurth_LEDs_WL-SMCW" library_urn="urn:adsk.eagle:library:19028156" deviceset="WL-SMCW_0805" device="" package3d_urn="urn:adsk.eagle:package:19028167/5" technology="_150080YS75000" value="150080YS75000"/>
+<part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="R2" library="codm" library_urn="urn:adsk.eagle:library:11602856" deviceset="R-EU_" device="R0603RF" package3d_urn="urn:adsk.eagle:package:11602922/5" value="1k"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="185.42" y="-5.08" size="2.54" layer="94">cod.m GmbH, 2024
 https://www.codm.de
-0.2.1
+0.3
 CC-BY-SA-NC</text>
 </plain>
 <instances>
@@ -5644,9 +5927,9 @@ CC-BY-SA-NC</text>
 <attribute name="NAME" x="82.3214" y="95.25" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="87.122" y="95.25" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="JTAG" gate="G$1" x="195.58" y="111.76" smashed="yes">
-<attribute name="NAME" x="208.48" y="117.918" size="1.016" layer="95" align="bottom-right"/>
-<attribute name="VALUE" x="213.61" y="115.26" size="1.016" layer="96" align="bottom-right"/>
+<instance part="JTAG" gate="G$1" x="195.58" y="132.08" smashed="yes">
+<attribute name="NAME" x="208.48" y="138.238" size="1.016" layer="95" align="bottom-right"/>
+<attribute name="VALUE" x="213.61" y="135.58" size="1.016" layer="96" align="bottom-right"/>
 </instance>
 <instance part="RESET" gate="G$1" x="71.12" y="93.98" smashed="yes" rot="R180">
 <attribute name="NAME" x="70.95" y="88.03" size="1.778" layer="95" rot="R180" align="bottom-center"/>
@@ -5699,6 +5982,17 @@ CC-BY-SA-NC</text>
 <instance part="FD1" gate="G$1" x="185.42" y="27.94" smashed="yes"/>
 <instance part="FD2" gate="G$1" x="190.5" y="27.94" smashed="yes"/>
 <instance part="FD3" gate="G$1" x="195.58" y="27.94" smashed="yes"/>
+<instance part="CC" gate="G$1" x="203.2" y="99.06" smashed="yes">
+<attribute name="NAME" x="201.212" y="103.032" size="1.27" layer="95"/>
+<attribute name="VALUE" x="200.572" y="95.132" size="1.27" layer="96"/>
+</instance>
+<instance part="GND2" gate="1" x="190.5" y="88.9" smashed="yes">
+<attribute name="VALUE" x="187.96" y="86.36" size="1.778" layer="96"/>
+</instance>
+<instance part="R2" gate="G$1" x="218.44" y="99.06" smashed="yes" rot="R180">
+<attribute name="NAME" x="222.25" y="97.5614" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="222.25" y="102.362" size="1.778" layer="96" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -5720,8 +6014,8 @@ CC-BY-SA-NC</text>
 </segment>
 <segment>
 <pinref part="JTAG" gate="G$1" pin="1"/>
-<wire x1="195.58" y1="111.76" x2="190.5" y2="111.76" width="0.1524" layer="91"/>
-<label x="190.5" y="111.76" size="1.016" layer="95" rot="R180" xref="yes"/>
+<wire x1="195.58" y1="132.08" x2="190.5" y2="132.08" width="0.1524" layer="91"/>
+<label x="190.5" y="132.08" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="132.08" y1="35.56" x2="124.46" y2="35.56" width="0.1524" layer="91"/>
@@ -5778,13 +6072,13 @@ CC-BY-SA-NC</text>
 </segment>
 <segment>
 <pinref part="JTAG" gate="G$1" pin="3"/>
-<wire x1="195.58" y1="109.22" x2="193.04" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="129.54" x2="193.04" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="JTAG" gate="G$1" pin="5"/>
-<wire x1="193.04" y1="109.22" x2="190.5" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="106.68" x2="193.04" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="106.68" x2="193.04" y2="109.22" width="0.1524" layer="91"/>
-<junction x="193.04" y="109.22"/>
-<label x="190.5" y="109.22" size="1.016" layer="95" rot="R180" xref="yes"/>
+<wire x1="193.04" y1="129.54" x2="190.5" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="127" x2="193.04" y2="127" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="127" x2="193.04" y2="129.54" width="0.1524" layer="91"/>
+<junction x="193.04" y="129.54"/>
+<label x="190.5" y="129.54" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="86.36" y1="15.24" x2="86.36" y2="17.78" width="0.1524" layer="91"/>
@@ -5800,6 +6094,12 @@ CC-BY-SA-NC</text>
 <pinref part="C3" gate="G$1" pin="1"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 <pinref part="U2" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND2" gate="1" pin="GND"/>
+<wire x1="190.5" y1="91.44" x2="190.5" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="CC" gate="G$1" pin="-"/>
+<wire x1="200.66" y1="99.06" x2="190.5" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RXD" class="0">
@@ -5838,8 +6138,8 @@ CC-BY-SA-NC</text>
 </segment>
 <segment>
 <pinref part="JTAG" gate="G$1" pin="10"/>
-<wire x1="218.44" y1="101.6" x2="226.06" y2="101.6" width="0.1524" layer="91"/>
-<label x="226.06" y="101.6" size="1.016" layer="95" xref="yes"/>
+<wire x1="218.44" y1="121.92" x2="226.06" y2="121.92" width="0.1524" layer="91"/>
+<label x="226.06" y="121.92" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="66.04" y1="88.9" x2="58.42" y2="88.9" width="0.1524" layer="91"/>
@@ -5855,8 +6155,8 @@ CC-BY-SA-NC</text>
 </segment>
 <segment>
 <pinref part="JTAG" gate="G$1" pin="2"/>
-<wire x1="218.44" y1="111.76" x2="226.06" y2="111.76" width="0.1524" layer="91"/>
-<label x="226.06" y="111.76" size="1.016" layer="95" xref="yes"/>
+<wire x1="218.44" y1="132.08" x2="226.06" y2="132.08" width="0.1524" layer="91"/>
+<label x="226.06" y="132.08" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="TCK" class="0">
@@ -5867,8 +6167,8 @@ CC-BY-SA-NC</text>
 </segment>
 <segment>
 <pinref part="JTAG" gate="G$1" pin="4"/>
-<wire x1="218.44" y1="109.22" x2="226.06" y2="109.22" width="0.1524" layer="91"/>
-<label x="226.06" y="109.22" size="1.016" layer="95" xref="yes"/>
+<wire x1="218.44" y1="129.54" x2="226.06" y2="129.54" width="0.1524" layer="91"/>
+<label x="226.06" y="129.54" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="TDO" class="0">
@@ -5879,8 +6179,8 @@ CC-BY-SA-NC</text>
 </segment>
 <segment>
 <pinref part="JTAG" gate="G$1" pin="6"/>
-<wire x1="218.44" y1="106.68" x2="226.06" y2="106.68" width="0.1524" layer="91"/>
-<label x="226.06" y="106.68" size="1.016" layer="95" xref="yes"/>
+<wire x1="218.44" y1="127" x2="226.06" y2="127" width="0.1524" layer="91"/>
+<label x="226.06" y="127" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="TDI" class="0">
@@ -5891,8 +6191,8 @@ CC-BY-SA-NC</text>
 </segment>
 <segment>
 <pinref part="JTAG" gate="G$1" pin="8"/>
-<wire x1="218.44" y1="104.14" x2="226.06" y2="104.14" width="0.1524" layer="91"/>
-<label x="226.06" y="104.14" size="1.016" layer="95" xref="yes"/>
+<wire x1="218.44" y1="124.46" x2="226.06" y2="124.46" width="0.1524" layer="91"/>
+<label x="226.06" y="124.46" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="FLASH" class="0">
@@ -5928,6 +6228,25 @@ CC-BY-SA-NC</text>
 <pinref part="P+3" gate="1" pin="+5V"/>
 <pinref part="JP1" gate="A" pin="1"/>
 <wire x1="198.12" y1="53.34" x2="210.82" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="CC" gate="G$1" pin="+"/>
+<wire x1="208.28" y1="99.06" x2="213.36" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="CC-LED" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="DIO7"/>
+<wire x1="106.68" y1="106.68" x2="96.52" y2="106.68" width="0.1524" layer="91"/>
+<label x="96.52" y="106.68" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="223.52" y1="99.06" x2="228.6" y2="99.06" width="0.1524" layer="91"/>
+<label x="228.6" y="99.06" size="1.27" layer="95" xref="yes"/>
+<pinref part="R2" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
