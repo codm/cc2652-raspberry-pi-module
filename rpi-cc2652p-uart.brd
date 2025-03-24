@@ -4236,7 +4236,7 @@ Everything else you will find on https://aisler.net/help</description>
 <signal name="N$5">
 <contactref element="CC" pad="2"/>
 <contactref element="R2" pad="2"/>
-<wire x1="15.3" y1="11.3" x2="15.3" y2="13.2" width="0" layer="19" extent="1-1"/>
+<wire x1="15.3" y1="13.2" x2="15.3" y2="11.3" width="0.1524" layer="1"/>
 </signal>
 <signal name="CC-LED">
 <contactref element="U1" pad="DIO7"/>
@@ -4249,7 +4249,7 @@ Everything else you will find on https://aisler.net/help</description>
 <via x="17.3" y="14.8" extent="1-16" drill="0.35" shape="octagon"/>
 <wire x1="29.7" y1="15.3" x2="17.8" y2="15.3" width="0.1524" layer="16"/>
 <contactref element="R2" pad="1"/>
-<wire x1="15.3" y1="14.8" x2="17.3" y2="14.8" width="0" layer="19" extent="1-1"/>
+<wire x1="17.3" y1="14.8" x2="15.3" y2="14.8" width="0.1524" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
