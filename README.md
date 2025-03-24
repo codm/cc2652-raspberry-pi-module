@@ -75,6 +75,8 @@ Download or checkout [cc2538-bsl](https://github.com/JelmerT/cc2538-bsl) into a 
 
 Please check that you zigbee software is not running anymore an nothing is accessing the serial device where the zigbee module is plugged in (`/dev/ttyAMA0`).
 
+While connected and powered through the Pi, hold down the flash button on the module and press reset shortly while still holding flash. The CC2652 should now be in the bootloder.
+
 To flash type `python3 cc2538-bsl.py -p /dev/ttyAMA0 -evw CC1352P2_CC2652P_launchpad_coordinator_20211217.hex` in the appropriate directory. Change the filename of the .hex-file accordingly.
 
 The output looks something like this: 
