@@ -1,0 +1,11 @@
+"Qty";"Value";"Device";"Package";"Parts";"Description";"CHIP-TECHNOLOGY";"DATASHEET-URL";"DESCRIPTION";"DOMINANT-WAVELENGTH";"EMITTING-COLOR";"FORWARD-VOLTAGE";"H";"HEIGHT";"LUMINOUS-INTENSITY";"MANUFACTURER_NAME";"MANUFACTURER_PART_NUMBER";"MOUSER_PART_NUMBER";"MOUSER_PRICE-STOCK";"OPERATION-FORCE";"PART-NUMBER";"PEAK-WAVELENGTH";"POPULARITY";"PROD_ID";"QTY";"SPICEPREFIX";"VALUE";
+"2";"";"434153017835";"434153017835";"FLASH, RESET";"WS-TASV J-Bend SMT Tact Switch 3.5x2.9 mm";"";"https://www.we-online.com/catalog/datasheet/434153017835.pdf";"";"";"";"";"1.7mm";"";"";"";"";"";"";"350g";"434153017835";"";"";"";" 4000 ";"";"";
+"1";"";"PINHD-2X5";"2X05";"JP1";"PIN HEADER";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";
+"1";"100n";"C-EUC0603K";"C0603K";"C1";"CAPACITOR, European symbol";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"30";"";"";"C";"";
+"1";"150080YS75000";"WL-SMCW_0805_150080YS75000";"WL-SMCW_0805";"CC";"WL-SMCW SMT Mono-color Chip LED Waterclea";"AlInGaP";"https://www.we-online.com/redexpert/spec/150080YS75000?ae";"";"590nm";"Yellow";"140°";"";"";"120mcd";"";"";"";"";"";"150080YS75000";"595nm";"";"";"";"";"150080YS75000";
+"2";"1k";"R-EU_R0603RF";"R0603RF";"R1, R2";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";
+"2";"1u";"C-EUC0805";"C0805";"C2, C3";"CAPACITOR, European symbol";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"88";"";"";"C";"";
+"1";"20021121-00010C4LF";"20021121-00010C4LF";"2002112100010C4LF";"JTAG";"Headers & Wire Housings 1.27x1.27mm BTB, Hdr Unshrd, SMT, 10 Pos";"";"";"Headers & Wire Housings 1.27x1.27mm BTB, Hdr Unshrd, SMT, 10 Pos";"";"";"";"";"4.55mm";"";"Amphenol";"20021121-00010C4LF";"649-202112100010C4LF";"https://www.mouser.com/Search/Refine.aspx?Keyword=649-202112100010C4LF";"";"";"";"";"";"";"";"";
+"1";"AP2112K";"V_REG_AP2112K-3.3V";"SOT23-5";"U2";"AP2112 - 600mA CMOS LDO Regulator w/ Enable";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"VREG-12457";"";"";"3.3V";
+"1";"CC2652P2-DUOWEISI";"CC2652P2-DUOWEISI";"CC2652P2-DUOWEISI";"U1";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";
+"3";"FIDUCIAL1X2";"FIDUCIAL1X2";"FIDUCIAL-1X2";"FD1, FD2, FD3";"Fiducial Alignment Points";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";
